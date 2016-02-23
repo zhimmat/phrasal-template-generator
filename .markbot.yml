@@ -1,0 +1,37 @@
+repo: "phrasal-template-generator"
+canvasCourse: "467503"
+canvasAssignment: "4202500"
+
+naming: true
+commits: 2
+
+html:
+  - path: "index.html"
+    valid: true
+    bestPractices: true
+    has:
+      - "script"
+
+js:
+  - path: "js/main.js"
+    valid: true
+    bestPractices: true
+    search:
+      - "var"
+      - "alert"
+      - "prompt"
+      - "switch"
+      - "case"
+      - "break"
+      - "document.write"
+      - "\\+"
+      - "\\\\n"
+      - "Let’s make a story together!"
+      - "A colour"
+      - "A creature"
+      - "An adjective"
+      - "A past tense verb"
+      - "Which story would you like?"
+      - "After snacking"
+      - "Ameilia"
+      - "Jackson chose"
