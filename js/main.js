@@ -8,17 +8,17 @@ var aPast;
 
 var aStory;
 
-var aColour = prompt('A colour (orange, indigo, etc.)');
+alert('Let’s make a story together!');
 
-var aCreature = prompt('A creature (dragon, moth, etc.)');
+aColour = prompt('A colour (orange, indigo, etc.)');
 
-var anAdjective = prompt('An adjective (beautiful, super, etc.)');
+aCreature = prompt('A creature (dragon, moth, etc.)');
 
-var aPast = prompt('A past tense verb (ran, burped, etc.)');
+anAdjective = prompt('An adjective (beautiful, super, etc.)');
 
-var aStory = prompt('Which story would you like?\n a) Snacking\n b) Escaping\n c) Winning');
+aPast = prompt('A past tense verb (ran, burped, etc.)');
 
-alert("Let's make a story together!");
+aStory = prompt('Which story would you like?\n a) Snacking\n b) Escaping\n c) Winning');
 
 if (aStory == 'a') {
   document.write('After snacking on '  + anAdjective + ' treats, the ' + aColour + ' bellied ' + aCreature + ' ' + aPast + ' for hours.');
